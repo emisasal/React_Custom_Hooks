@@ -2,13 +2,11 @@
 React custom hook for capturing the size (width and/or heigth) of an elements.
 
 #### Example of use:
-- To deal with responsive issues on javascript.
+- To deal with responsive issues that can't be resolved with CSS media queries.
 
 ### On use:
 
 ```ruby
-// yourComponent.js
-
 import useWindowDimensions from './hooks/useWindowDimensions';
 
 const Component = () => {
@@ -18,7 +16,8 @@ const Component = () => {
 
   return (
     <div>
-      width: {width} ~ height: {height}
+      width: {width} ~ height: {height} 
+      // It can be used as style parameters.
     </div>
   );
 ```
