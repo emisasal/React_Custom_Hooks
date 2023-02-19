@@ -1,2 +1,3 @@
 # React_Custom_Hooks
-Custom Hooks examples and ideas.
+
+React Custom Hooks I created or collected from the web.
